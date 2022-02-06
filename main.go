@@ -26,4 +26,9 @@ func main() {
 	floatSlice = append(floatSlice, 4.4, 5.5, 6.6)
 	fmt.Println(floatSlice)
 
+	// creating sub slices
+	floatSlice2 := floatSlice[1:]
+	floatSlice3 := floatSlice[:2]
+	floatSlice4 := floatSlice[1:2]
+	fmt.Println(floatSlice2, floatSlice3, floatSlice4)
 }
